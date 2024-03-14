@@ -44,7 +44,7 @@ for each wear category.</p>
 
 ### Program:
 
-python
+```python
 from collections import defaultdict
 from itertools import combinations
 # Function to generate candidate k-item sequences
@@ -116,7 +116,7 @@ if party_wear_result:
  print(f"Pattern: {pattern}, Support: {support}")
 else:
  print("No frequent sequential patterns found in Party Wear.")
-
+```
 ### Output:
 ![image](https://github.com/Hariharan-061102/WDM_EXP3/assets/93427270/03167c38-1d02-4984-bbb8-d70d89f27b90)
 
