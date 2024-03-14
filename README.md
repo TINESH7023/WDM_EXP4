@@ -19,7 +19,7 @@ Reg.No: 212222223004
 4) Visualize the result using matplotlib.
 
 ### Program:
-python
+```python
 # Visitor segmentation based on characteristics
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -39,7 +39,7 @@ for group,condition in age_groups.items():
   print(f"Visitors in {group} age group")
   print(visitors_in_group)
   print()
-
+```
 ### Output:
 ![image](https://github.com/Hariharan-061102/WDM_EXP4/assets/93427270/6792d05a-079a-4312-9180-7a55f3d6a9a5)
 ![image](https://github.com/Hariharan-061102/WDM_EXP4/assets/93427270/bac58835-8c8b-4a39-a22f-cd40b5160cb4)
